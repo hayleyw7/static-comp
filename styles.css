@@ -13,6 +13,7 @@ body {
   /* display: flex;
   flex-direction: row; */
   font-family: Arial;
+  background: var(--lightgray);
 }
 
 /* NAVBAR */
@@ -32,4 +33,20 @@ body {
 .card-container-2 {
   display: flex;
   flex-direction: row;
+}
+
+.card {
+  border: 1px var(--lightgray) solid;
+  margin: 0.3rem;
+  background: var(--white);
+}
+
+/* ON CARD */
+
+.num-attachments {
+  color: var(--blue);
+}
+
+.recipient-link {
+  background: var(--lightgray);
 }
