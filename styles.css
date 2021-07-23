@@ -3,19 +3,50 @@
 :root {
   --white: #FFF;
   --black: #000000;
+  --mediumgray: #666666;
+  --darkgray: #222222;
+  --lightgray: #DCDCDC;
+  --blue: #7FB6F5;
 }
 
-/* body {
-  background-color: 
-  color: 
+body {
+  /* display: flex;
+  flex-direction: row; */
+  font-family: Arial;
+  background: var(--lightgray);
+}
+
+/* NAVBAR */
+
+.navbar {
+  background: var(--darkgray);
+  color: var(--lightgray);
+}
+
+.username-section {
+  color: var(--blue);
+}
+
+/* MAIN */
+
+.card-container-1,
+.card-container-2 {
   display: flex;
-  font-family: 
-  margin: 
-} */
+  flex-direction: row;
+}
 
-/* HEADERS */
+.card {
+  border: 1px var(--lightgray) solid;
+  margin: 0.3rem;
+  background: var(--white);
+}
 
-h1 {
-  color:
-  font-size: 
+/* ON CARD */
+
+.num-attachments {
+  color: var(--blue);
+}
+
+.recipient-link {
+  background: var(--lightgray);
 }
