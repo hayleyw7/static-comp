@@ -3,15 +3,30 @@
 :root {
   --white: #FFF;
   --black: #000000;
+  --mediumgray: #666666;
+  --darkgray: #222222;
+  --lightgray: #DCDCDC;
+  --blue: #7FB6F5;
 }
 
-/* body {
-  background-color: 
-  color: 
+body {
   display: flex;
-  font-family: 
-  margin: 
-} */
+  flex-direction: row;
+  font-family: Arial;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background: var(--darkgray);
+  color: var(--lightgray);
+}
+
+.navbar-links {
+
+}
+
+
 
 /* HEADERS */
 
