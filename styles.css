@@ -39,6 +39,7 @@ body {
   border: 1px var(--lightgray) solid;
   margin: 0.3rem;
   background: var(--white);
+  padding: 1rem;
 }
 
 /* ON CARD */
