@@ -25,7 +25,25 @@ body {
 
 .username-section {
   color: var(--blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
+
+.navbar-links-section {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.6rem;
+}
+
+/* .navbar-bottom-half {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-section {
+  justify-content: flex-end;
+} */
 
 /* MAIN */
 
@@ -39,6 +57,7 @@ body {
   border: 1px var(--lightgray) solid;
   margin: 0.3rem;
   background: var(--white);
+  padding: 1rem;
 }
 
 /* ON CARD */
