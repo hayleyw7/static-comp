@@ -15,6 +15,7 @@ body {
   font-family: Arial;
   background: var(--darkgray);
   margin: 0;
+  color: var(--lightgray);
   /* padding: 0; */
 }
 
@@ -43,14 +44,22 @@ body {
   height: 2rem;
 }
 
+.logo-icon {
+  width: 4rem;
+  height: 4rem;
+  justify-content: flex-end;
+}
+
 /* .navbar-bottom-half {
   display: flex;
   flex-direction: row;
-}
+} */
 
 .logo-section {
+  display: flex;
+  flex-direction: row;
   justify-content: flex-end;
-} */
+}
 
 /* MAIN */
 
