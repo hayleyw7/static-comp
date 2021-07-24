@@ -13,14 +13,17 @@ body {
   /* display: flex;
   flex-direction: row; */
   font-family: Arial;
-  background: var(--lightgray);
+  background: var(--darkgray);
+  margin: 0;
+  color: var(--lightgray);
+  /* padding: 0; */
 }
 
 /* NAVBAR */
 
 .navbar {
-  background: var(--darkgray);
-  color: var(--lightgray);
+  background: var(--lightgray);
+  color: var(--darkgray);
 }
 
 .username-section {
@@ -36,14 +39,27 @@ body {
   font-size: 0.6rem;
 }
 
+.navbar-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.logo-icon {
+  width: 4rem;
+  height: 4rem;
+  justify-content: flex-end;
+}
+
 /* .navbar-bottom-half {
   display: flex;
   flex-direction: row;
-}
+} */
 
 .logo-section {
+  display: flex;
+  flex-direction: row;
   justify-content: flex-end;
-} */
+}
 
 /* MAIN */
 
@@ -61,6 +77,11 @@ body {
 }
 
 /* ON CARD */
+
+.right-arrow {
+  width: 3rem;
+  height: 3rem;
+}
 
 .num-attachments {
   color: var(--blue);
