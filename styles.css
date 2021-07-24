@@ -8,7 +8,7 @@
   --lightgray: #DCDCDC;
   --blue: #80daeb;
   --pink:	#FFC0CB;
-
+  --green: #DDF1A7;
 }
 
 body {
@@ -66,6 +66,9 @@ body {
 
 h3 {
   color: var(--lightgray);
+  font-size: 2.5rem;
+  padding: 0 0 0 1.3rem;
+  margin: 1.9rem 0 1rem 0;
 }
 
 .card-container-1,
@@ -110,7 +113,7 @@ h3 {
 }
 
 .recipient-link {
-  background: var(--lightgray);
+  background: var(--green);
   padding: 0.5rem
 }
 
