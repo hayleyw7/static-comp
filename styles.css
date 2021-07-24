@@ -13,14 +13,16 @@ body {
   /* display: flex;
   flex-direction: row; */
   font-family: Arial;
-  background: var(--lightgray);
+  background: var(--darkgray);
+  margin: 0;
+  /* padding: 0; */
 }
 
 /* NAVBAR */
 
 .navbar {
-  background: var(--darkgray);
-  color: var(--lightgray);
+  background: var(--lightgray);
+  color: var(--darkgray);
 }
 
 .username-section {
@@ -34,6 +36,11 @@ body {
   display: flex;
   flex-direction: row;
   font-size: 0.6rem;
+}
+
+.navbar-icon {
+  width: 2rem;
+  height: 2rem;
 }
 
 /* .navbar-bottom-half {
@@ -61,6 +68,11 @@ body {
 }
 
 /* ON CARD */
+
+.right-arrow {
+  width: 3rem;
+  height: 3rem;
+}
 
 .num-attachments {
   color: var(--blue);
