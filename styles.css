@@ -6,9 +6,9 @@
   --mediumgray: #828282;
   --darkgray: #222222;
   --lightgray: #DCDCDC;
-  --blue: #80daeb;
-  --pink:	#FFC0CB;
-  --green: #DDF1A7;
+  --blue: #ABEAE1;
+  --pink: #F2B2C7;
+  --green: #E5F3B3;
 }
 
 body {
@@ -88,6 +88,8 @@ h3 {
 
 /* ON CARD */
 
+/* photo section */
+
 .recipient-info-container {
   padding: 1rem;
 }
@@ -97,10 +99,30 @@ h3 {
   margin: 0;
 }
 
+.photo-container {
+  position: relative;
+}
+
 .right-arrow {
   width: 3rem;
   height: 3rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background: var(--blue);
+  border-radius: 10rem;
+  padding: 0.1rem;
 }
+
+.views-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+/* recipient info section */
 
 .recipient-name {
   margin: 0;
