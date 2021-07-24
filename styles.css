@@ -7,7 +7,7 @@
   --darkgray: #222222;
   --lightgray: #DCDCDC;
   --blue: #ABEAE1;
-  --pink: #F2B2C7;
+  --pink: #FFC0CB;
   --green: #E5F3B3;
 }
 
@@ -32,6 +32,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  padding: 0.5rem 1rem 0 0;
+}
+
+.username {
+  margin: 0.7rem 0 0 0;
 }
 
 .navbar-links-section {
@@ -41,31 +46,32 @@ body {
 }
 
 .navbar-icon {
-  width: 2rem;
-  height: 2rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  padding: 0.5rem;
 }
 
 .logo-icon {
   width: 4rem;
   height: 4rem;
   justify-content: flex-end;
+  padding: 2.2rem 2rem 0 0.8rem;
+  /* margin: 0; */
 }
-
-/* .navbar-bottom-half {
-  display: flex;
-  flex-direction: row;
-} */
 
 .logo-section {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  font-size: 2.3rem;
+  /* margin: 0;
+  padding: 0; */
 }
 
 /* MAIN */
 
 h3 {
-  color: var(--lightgray);
+  color: var(--white);
   font-size: 2.5rem;
   padding: 0 0 0 1.3rem;
   margin: 1.9rem 0 1rem 0;
