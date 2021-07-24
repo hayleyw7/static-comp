@@ -3,10 +3,10 @@
 :root {
   --white: #FFF;
   --black: #000000;
-  --mediumgray: #666666;
+  --mediumgray: #828282;
   --darkgray: #222222;
   --lightgray: #DCDCDC;
-  --blue: #7FB6F5;
+  --blue: #80daeb;
   --pink:	#FFC0CB;
 
 }
@@ -17,6 +17,7 @@ body {
   font-family: Arial;
   background: var(--darkgray);
   margin: 0;
+  color: var(--darkgray);
   /* padding: 0; */
 }
 
@@ -28,7 +29,6 @@ body {
 }
 
 .username-section {
-  color: var(--blue);
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -86,7 +86,7 @@ h3 {
 /* ON CARD */
 
 .recipient-info-container {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .recipient-photo {
@@ -99,16 +99,27 @@ h3 {
   height: 3rem;
 }
 
-.date-time {
-  color: var(--lightgray);
+.recipient-name {
+  margin: 0;
 }
 
+.date-time {
+  color: var(--mediumgray);
+  margin: 0;
+  font-size: 0.9rem;
+}
 
 .recipient-link {
   background: var(--lightgray);
   padding: 0.5rem
 }
 
+.play-attach {
+  font-size: 0.8rem;
+}
+
 .num-attachments {
   color: var(--blue);
+  font-size: 2rem;
+  margin: 0;
 }
