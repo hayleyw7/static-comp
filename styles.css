@@ -79,14 +79,18 @@ h3 {
   border: 1px var(--lightgray) solid;
   margin: 0.3rem;
   background: var(--white);
-  padding: 1rem;
+  /* padding: 1rem; */
   width: 20rem;
 }
 
 /* ON CARD */
 
+.recipient-info-container {
+    padding: 1rem;
+}
+
 .recipient-photo {
-  height: 13.7rem;
+  width: 20rem;
   margin: 0;
 }
 
