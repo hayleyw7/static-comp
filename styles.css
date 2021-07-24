@@ -7,6 +7,8 @@
   --darkgray: #222222;
   --lightgray: #DCDCDC;
   --blue: #7FB6F5;
+  --pink:	#FFC0CB;
+
 }
 
 body {
@@ -15,14 +17,13 @@ body {
   font-family: Arial;
   background: var(--darkgray);
   margin: 0;
-  color: var(--lightgray);
   /* padding: 0; */
 }
 
 /* NAVBAR */
 
 .navbar {
-  background: var(--lightgray);
+  background: var(--pink);
   color: var(--darkgray);
 }
 
@@ -63,6 +64,10 @@ body {
 
 /* MAIN */
 
+h3 {
+  color: var(--lightgray);
+}
+
 .card-container-1,
 .card-container-2 {
   display: flex;
@@ -77,6 +82,11 @@ body {
 }
 
 /* ON CARD */
+
+.user-photo {
+  height: 17.6rem;
+  margin: 0;
+}
 
 .right-arrow {
   width: 3rem;
