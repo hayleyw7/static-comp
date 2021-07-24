@@ -99,10 +99,16 @@ h3 {
   height: 3rem;
 }
 
-.num-attachments {
-  color: var(--blue);
+.date-time {
+  color: var(--lightgray);
 }
+
 
 .recipient-link {
   background: var(--lightgray);
+  padding: 0.5rem
+}
+
+.num-attachments {
+  color: var(--blue);
 }
