@@ -6,9 +6,9 @@
   --mediumgray: #828282;
   --darkgray: #222222;
   --lightgray: #DCDCDC;
-  --blue: #80daeb;
-  --pink:	#FFC0CB;
-
+  --blue: #ABEAE1;
+  --pink: #F2B2C7;
+  --green: #E5F3B3;
 }
 
 body {
@@ -66,13 +66,21 @@ body {
 
 h3 {
   color: var(--lightgray);
+  font-size: 2.5rem;
+  padding: 0 0 0 1.3rem;
+  margin: 1.9rem 0 1rem 0;
 }
 
 .card-container-1,
 .card-container-2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; 
+  justify-content: space-evenly;
+  margin: 0.5rem; 
+}
+
+.card-container-2 {
+  margin-bottom: 40rem;
 }
 
 .card {
@@ -85,6 +93,8 @@ h3 {
 
 /* ON CARD */
 
+/* photo section */
+
 .recipient-info-container {
   padding: 1rem;
 }
@@ -94,10 +104,45 @@ h3 {
   margin: 0;
 }
 
+.photo-container {
+  position: relative;
+}
+
 .right-arrow {
   width: 3rem;
   height: 3rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background: var(--blue);
+  border-radius: 10rem;
+  padding: 0.1rem;
 }
+
+.views,
+.num-views {
+  /* display: flex;
+  flex-direction: column; */
+  position: absolute;
+  /* bottom: 20px;
+  left: 10px; */
+  color: var(--white);
+  padding: 0;
+}
+
+.views {
+  font-size: 0.8rem;
+  bottom: 11.4rem;
+  right: 0.9rem;
+}
+
+.num-views {
+  font-size: 2rem;
+  bottom: 7.9rem;
+  right: 1.1rem;
+}
+
+/* recipient info section */
 
 .recipient-name {
   margin: 0;
@@ -110,7 +155,7 @@ h3 {
 }
 
 .recipient-link {
-  background: var(--lightgray);
+  background: var(--green);
   padding: 0.5rem
 }
 
