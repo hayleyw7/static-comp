@@ -1,4 +1,4 @@
-# FitLit
+# Static Comp
 
 This is a static comp challenge to get students "working that HTML/CSS muscle", where we were required to recreate a webpage based off of the provided static comp. The objective wass to build something that respects the integrity of the original design.
 
