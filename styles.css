@@ -199,3 +199,13 @@ h3 {
   font-size: 2rem;
   margin: 0;
 }
+
+@media screen and (min-device-width: 200px) and (max-device-width: 480px){
+  html {
+    /* display: flex;
+    flex-direction: column; */
+    /* border: 2px black solid; */
+    display: grid;
+    grid-template-column: no-repeat(1, 1fr);
+  }
+}
