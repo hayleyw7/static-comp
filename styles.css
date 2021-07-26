@@ -26,16 +26,18 @@ body {
 .navbar {
   background: var(--pink);
   color: var(--darkgray);
-  width: 100rem;
+  /* width: 100rem; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 10rem;
 }
 
 .navbar-left {
   width: 40rem;
   /* display: flex;
   flex-direction: column; */
+  padding-top: 1.5em;
 }
 
 .navbar-right {
@@ -70,20 +72,25 @@ body {
   width: 4rem;
   height: 4rem;
   justify-content: flex-end;
-  padding: 2.2rem 2rem 0 0.8rem;
-  /* margin: 0; */
+  padding: 2.2rem 1.4rem 0 0.8rem;
+  margin: 0;
 }
 
 .logo-section {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: flex-end;
   font-size: 2.3rem;
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   /* position: absolute; */
   /* bottom: 70rem; */
   /* right: 5rem;  */
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
 }
 
 /* MAIN */
