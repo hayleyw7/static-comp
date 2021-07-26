@@ -19,6 +19,9 @@ body {
   margin: 0;
   color: var(--darkgray);
   /* padding: 0; */
+  /* position: relative; */
+  /* flex-shrink: inherit; */
+  
 }
 
 /* NAVBAR */
@@ -31,6 +34,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   height: 10rem;
+  /* aspect-ratio: 100/29; */
+  /* background-size: contain; */
 }
 
 .navbar-left {
@@ -104,14 +109,16 @@ h3 {
 
 .card-container-1,
 .card-container-2 {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   justify-content: space-evenly;
   margin: 0.5rem; 
+  display: grid;
 }
 
 .card-container-2 {
   margin-bottom: 40rem;
+  
 }
 
 .card {
@@ -120,6 +127,7 @@ h3 {
   background: var(--white);
   /* padding: 1rem; */
   width: 20rem;
+  /* flex-shrink: 0; */
 }
 
 /* ON CARD */
@@ -128,6 +136,7 @@ h3 {
 
 .recipient-info-container {
   padding: 1rem;
+  max-width: 20rem;
 }
 
 .recipient-photo {
@@ -200,12 +209,18 @@ h3 {
   margin: 0;
 }
 
-@media screen and (min-device-width: 200px) and (max-device-width: 480px){
-  html {
-    /* display: flex;
-    flex-direction: column; */
-    /* border: 2px black solid; */
+@media only screen and (min-width: 768px) {
+  /* html {
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
     display: grid;
-    grid-template-column: no-repeat(1, 1fr);
+    grid-template-column: repeat(8, 23%);
+    grid-template-rows: repeat(8, )
+  } */
+
+  .card-container-1,
+  .card-container-2 {
+  display: flex;
   }
 }
