@@ -1,4 +1,4 @@
-# FitLit
+# Static Comp
 
 This is a static comp challenge to get students "working that HTML/CSS muscle", where we were required to recreate a webpage based off of the provided static comp. The objective wass to build something that respects the integrity of the original design.
 
@@ -10,11 +10,9 @@ This project was completed as a project at Turing School of Software & Design du
 
 ## Reflections
 
-challenge
+Two challenges were focusing on mobile layout and responsive design. They are very important, so this was a great learning experince.
 
-learning experience
-
-successes
+A big success was finishing most of the project three days before its due date. CSS and HTML are fun!
 
 ## Languages
 
@@ -33,7 +31,7 @@ Built with Visual Studio Code
 Enter the following URL in your internet browser:
 `https://hayleyw7.github.io/static-comp/`
 
-When the site loads, a user will see a navigation bar at the top of the page, and two rows of four user information cards.
+When the site loads, a user will see a navigation bar at the top of the page, and below that are two rows of four user information cards.
 
 Since this is a static HTML and CSS practice assignment, nothing is clickable.
 
