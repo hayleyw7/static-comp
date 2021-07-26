@@ -22,7 +22,7 @@ body {
   /* padding: 0; */
   /* position: relative; */
   /* flex-shrink: inherit; */
-  
+  /* min-width: 36rem; */
 }
 
 /* NAVBAR */
@@ -243,5 +243,9 @@ h3 {
   .navbar-links-section {
     display: flex;
     margin: 5rem 0 0 1.3rem;
+  }
+
+  .navbar {
+    height: 11rem;
   }
 }
