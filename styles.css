@@ -22,7 +22,7 @@ body {
   /* padding: 0; */
   /* position: relative; */
   /* flex-shrink: inherit; */
-  
+  /* min-width: 36rem; */
 }
 
 /* NAVBAR */
@@ -63,7 +63,6 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   padding: 0.5rem 2.2rem 0 0;
-  margin: 0;
 }
 
 .username {
@@ -128,7 +127,7 @@ h3 {
 }
 
 .card-container-2 {
-  margin-bottom: 40rem;
+  margin-bottom: 1rem;
   
 }
 
@@ -244,5 +243,9 @@ h3 {
   .navbar-links-section {
     display: flex;
     margin: 5rem 0 0 1.3rem;
+  }
+
+  .navbar {
+    height: 11rem;
   }
 }
