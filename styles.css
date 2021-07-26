@@ -63,7 +63,6 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   padding: 0.5rem 2.2rem 0 0;
-  margin: 0;
 }
 
 .username {
@@ -128,7 +127,7 @@ h3 {
 }
 
 .card-container-2 {
-  margin-bottom: 40rem;
+  margin-bottom: 1rem;
   
 }
 
