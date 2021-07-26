@@ -12,17 +12,11 @@
 }
 
 body {
-  /* display: flex;
-  flex-direction: row; */
-  font-family: Arial;
   background: var(--darkgray);
+  color: var(--darkgray);
+  font-family: Arial;
   margin: 0;
   padding: 0;
-  color: var(--darkgray);
-  /* padding: 0; */
-  /* position: relative; */
-  /* flex-shrink: inherit; */
-  /* min-width: 36rem; */
 }
 
 /* NAVBAR */
@@ -30,28 +24,16 @@ body {
 .navbar {
   background: var(--pink);
   color: var(--darkgray);
-  /* width: 100rem; */
-  /* display: flex; */
-  /* display: grid; */
   flex-direction: row;
-  justify-content: space-between;
   height: 15rem;
-  /* aspect-ratio: 100/29; */
-  /* background-size: contain; */
+  justify-content: space-between;
 }
 
-/* .section {
-  margin: 0;
-  padding: 0;
-} */
-
 .navbar-left {
-  width: 40rem;
-  /* display: flex;
-  flex-direction: column; */
+  display: grid;
   padding: 1.5em 0 0 0;
   margin: 0 0 0 0;
-  display: grid;
+  width: 40rem;
 }
 
 .navbar-right {
@@ -78,34 +60,23 @@ body {
 }
 
 .navbar-icon {
-  width: 1.3rem;
   height: 1.3rem;
   padding: 0.5rem;
+  width: 1.3rem;
 }
 
 .logo-icon {
-  width: 4rem;
   height: 4rem;
   justify-content: flex-end;
-  padding: 2.1rem 0.5rem 0 0.8rem;
   margin: 0;
+  padding: 2.1rem 0.5rem 0 0.8rem;
+  width: 4rem;
 }
 
 .logo-section {
   display: flex;
-  /* flex-direction: row; */
-  justify-content: flex-end;
   font-size: 2.3rem;
-  /* margin: 0 0 2rem 0;
-  padding: 0 0 2rem 0; */
-  /* position: absolute; */
-  /* bottom: 70rem; */
-  /* right: 5rem;  */
-}
-
-.logo {
-  /* margin: 0 0 2rem 0;
-  padding: 0 0 2rem 0; */
+  justify-content: flex-end;
 }
 
 /* MAIN */
@@ -113,31 +84,27 @@ body {
 h3 {
   color: var(--white);
   font-size: 2.5rem;
-  padding: 0 0 0 1.3rem;
   margin: 1.9rem 0 1rem 0;
+  padding: 0 0 0 1.3rem;
 }
 
 .card-container-1,
 .card-container-2 {
-  /* display: flex; */
+  display: grid;
   flex-direction: row;
   justify-content: space-evenly;
   margin: 0.5rem; 
-  display: grid;
 }
 
 .card-container-2 {
-  margin-bottom: 1rem;
-  
+  margin-bottom: 1rem;  
 }
 
 .card {
+  background: var(--white);
   border: 1px var(--lightgray) solid;
   margin: 0.3rem;
-  background: var(--white);
-  /* padding: 1rem; */
   width: 20rem;
-  /* flex-shrink: 0; */
 }
 
 /* ON CARD */
@@ -145,13 +112,13 @@ h3 {
 /* photo section */
 
 .recipient-info-container {
-  padding: 1rem;
   max-width: 20rem;
+  padding: 1rem;
 }
 
 .recipient-photo {
-  width: 20rem;
   margin: 0;
+  width: 20rem;
 }
 
 .photo-container {
@@ -159,36 +126,32 @@ h3 {
 }
 
 .right-arrow {
-  width: 3rem;
-  height: 3rem;
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
   background: var(--blue);
   border-radius: 10rem;
+  height: 3rem;
+  left: 0.5rem;
   padding: 0.1rem;
+  position: absolute;
+  top: 0.5rem;
+  width: 3rem;
 }
 
 .views,
 .num-views {
-  /* display: flex;
-  flex-direction: column; */
-  position: absolute;
-  /* bottom: 20px;
-  left: 10px; */
   color: var(--white);
   padding: 0;
+  position: absolute;
 }
 
 .views {
-  font-size: 0.8rem;
   bottom: 11.4rem;
+  font-size: 0.8rem;
   right: 0.9rem;
 }
 
 .num-views {
-  font-size: 2rem;
   bottom: 7.9rem;
+  font-size: 2rem;
   right: 1.1rem;
 }
 
@@ -200,8 +163,8 @@ h3 {
 
 .date-time {
   color: var(--mediumgray);
-  margin: 0;
   font-size: 0.9rem;
+  margin: 0;
 }
 
 .recipient-link {
@@ -219,15 +182,9 @@ h3 {
   margin: 0;
 }
 
+/* MEDIA QUERY */
+
 @media only screen and (min-width: 680px) {
-  /* html {
-    display: flex;
-    flex-direction: column;
-    border: 2px black solid;
-    display: grid;
-    grid-template-column: repeat(8, 23%);
-    grid-template-rows: repeat(8, )
-  } */
 
   .card-container-1,
   .card-container-2 {
@@ -235,8 +192,7 @@ h3 {
   }
 
   .navbar {
-    display: flex;
-    /* min-height: 40rem; */
+    display: flex;Í
     margin: 0;
   }
  
