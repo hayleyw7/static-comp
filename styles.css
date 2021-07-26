@@ -17,8 +17,12 @@ body {
   font-family: Arial;
   background: var(--darkgray);
   margin: 0;
+  padding: 0;
   color: var(--darkgray);
   /* padding: 0; */
+  /* position: relative; */
+  /* flex-shrink: inherit; */
+  
 }
 
 /* NAVBAR */
@@ -27,17 +31,27 @@ body {
   background: var(--pink);
   color: var(--darkgray);
   /* width: 100rem; */
-  display: flex;
+  /* display: flex; */
+  /* display: grid; */
   flex-direction: row;
   justify-content: space-between;
-  height: 10rem;
+  height: 15rem;
+  /* aspect-ratio: 100/29; */
+  /* background-size: contain; */
 }
+
+/* .section {
+  margin: 0;
+  padding: 0;
+} */
 
 .navbar-left {
   width: 40rem;
   /* display: flex;
   flex-direction: column; */
-  padding-top: 1.5em;
+  padding: 1.5em 0 0 0;
+  margin: 0 0 0 0;
+  display: grid;
 }
 
 .navbar-right {
@@ -48,7 +62,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 0.5rem 1rem 0 0;
+  padding: 0.5rem 2.2rem 0 0;
+  margin: 0;
 }
 
 .username {
@@ -59,7 +74,8 @@ body {
   display: flex;
   flex-direction: row;
   font-size: 0.6rem;
-  margin: 5rem 0 0 1.3rem;
+  margin: 0 0 0 0.6rem;
+  padding: 0;
 }
 
 .navbar-icon {
@@ -72,7 +88,7 @@ body {
   width: 4rem;
   height: 4rem;
   justify-content: flex-end;
-  padding: 2.2rem 1.4rem 0 0.8rem;
+  padding: 2.1rem 0.5rem 0 0.8rem;
   margin: 0;
 }
 
@@ -81,16 +97,16 @@ body {
   /* flex-direction: row; */
   justify-content: flex-end;
   font-size: 2.3rem;
-  margin: 0;
-  padding: 0;
+  /* margin: 0 0 2rem 0;
+  padding: 0 0 2rem 0; */
   /* position: absolute; */
   /* bottom: 70rem; */
   /* right: 5rem;  */
 }
 
 .logo {
-  margin: 0;
-  padding: 0;
+  /* margin: 0 0 2rem 0;
+  padding: 0 0 2rem 0; */
 }
 
 /* MAIN */
@@ -104,14 +120,16 @@ h3 {
 
 .card-container-1,
 .card-container-2 {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   justify-content: space-evenly;
   margin: 0.5rem; 
+  display: grid;
 }
 
 .card-container-2 {
   margin-bottom: 40rem;
+  
 }
 
 .card {
@@ -120,6 +138,7 @@ h3 {
   background: var(--white);
   /* padding: 1rem; */
   width: 20rem;
+  /* flex-shrink: 0; */
 }
 
 /* ON CARD */
@@ -128,6 +147,7 @@ h3 {
 
 .recipient-info-container {
   padding: 1rem;
+  max-width: 20rem;
 }
 
 .recipient-photo {
@@ -200,12 +220,29 @@ h3 {
   margin: 0;
 }
 
-@media screen and (min-device-width: 200px) and (max-device-width: 480px){
-  html {
-    /* display: flex;
-    flex-direction: column; */
-    /* border: 2px black solid; */
+@media only screen and (min-width: 680px) {
+  /* html {
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
     display: grid;
-    grid-template-column: no-repeat(1, 1fr);
+    grid-template-column: repeat(8, 23%);
+    grid-template-rows: repeat(8, )
+  } */
+
+  .card-container-1,
+  .card-container-2 {
+    display: flex;
+  }
+
+  .navbar {
+    display: flex;
+    /* min-height: 40rem; */
+    margin: 0;
+  }
+ 
+  .navbar-links-section {
+    display: flex;
+    margin: 5rem 0 0 1.3rem;
   }
 }
