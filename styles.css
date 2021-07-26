@@ -12,17 +12,11 @@
 }
 
 body {
-  /* display: flex;
-  flex-direction: row; */
   font-family: Arial;
   background: var(--darkgray);
   margin: 0;
   padding: 0;
   color: var(--darkgray);
-  /* padding: 0; */
-  /* position: relative; */
-  /* flex-shrink: inherit; */
-  /* min-width: 36rem; */
 }
 
 /* NAVBAR */
@@ -30,25 +24,13 @@ body {
 .navbar {
   background: var(--pink);
   color: var(--darkgray);
-  /* width: 100rem; */
-  /* display: flex; */
-  /* display: grid; */
   flex-direction: row;
   justify-content: space-between;
   height: 15rem;
-  /* aspect-ratio: 100/29; */
-  /* background-size: contain; */
 }
-
-/* .section {
-  margin: 0;
-  padding: 0;
-} */
 
 .navbar-left {
   width: 40rem;
-  /* display: flex;
-  flex-direction: column; */
   padding: 1.5em 0 0 0;
   margin: 0 0 0 0;
   display: grid;
@@ -96,16 +78,6 @@ body {
   /* flex-direction: row; */
   justify-content: flex-end;
   font-size: 2.3rem;
-  /* margin: 0 0 2rem 0;
-  padding: 0 0 2rem 0; */
-  /* position: absolute; */
-  /* bottom: 70rem; */
-  /* right: 5rem;  */
-}
-
-.logo {
-  /* margin: 0 0 2rem 0;
-  padding: 0 0 2rem 0; */
 }
 
 /* MAIN */
@@ -119,7 +91,6 @@ h3 {
 
 .card-container-1,
 .card-container-2 {
-  /* display: flex; */
   flex-direction: row;
   justify-content: space-evenly;
   margin: 0.5rem; 
@@ -135,9 +106,7 @@ h3 {
   border: 1px var(--lightgray) solid;
   margin: 0.3rem;
   background: var(--white);
-  /* padding: 1rem; */
   width: 20rem;
-  /* flex-shrink: 0; */
 }
 
 /* ON CARD */
@@ -171,11 +140,7 @@ h3 {
 
 .views,
 .num-views {
-  /* display: flex;
-  flex-direction: column; */
   position: absolute;
-  /* bottom: 20px;
-  left: 10px; */
   color: var(--white);
   padding: 0;
 }
@@ -219,15 +184,9 @@ h3 {
   margin: 0;
 }
 
+/* MEDIA QUERY */
+
 @media only screen and (min-width: 680px) {
-  /* html {
-    display: flex;
-    flex-direction: column;
-    border: 2px black solid;
-    display: grid;
-    grid-template-column: repeat(8, 23%);
-    grid-template-rows: repeat(8, )
-  } */
 
   .card-container-1,
   .card-container-2 {
@@ -235,8 +194,7 @@ h3 {
   }
 
   .navbar {
-    display: flex;
-    /* min-height: 40rem; */
+    display: flex;Í
     margin: 0;
   }
  
